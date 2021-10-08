@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Table Headers Example</title>
+    <style>
+        table, th, td{
+            border:1px solid black;
+            border-collapse: collapse;
+            border-spacing: 100px;
+        }
+        th, td{
+            text-align: left;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Vertical Table Headers</h2>
+    <p>The first column becomes table headers if you set the first tablw cell in each table row to a TH element:</p>
+    <table style="width: 100%;">
+    <caption>Names of users</caption>
+    <tr>
+        <th colspan="2">First name</th>
+        <td>Jil</td>
+        <td>Kane</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Last name</th>
+        <td>Smith</td>
+        <td>Mason</td>
+    </tr>
+    <tr>
+        <th>Age</th>
+        <td>40</td>
+        <td>30</td>
+    </tr>
+    </table>
+</body>
+</html>
