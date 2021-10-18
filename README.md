@@ -14,7 +14,7 @@ A simple file related to html development.
 ## Basic Details
 
 HTML is the standard markup language for Web pages.
-- HTML Basic
+- [HTML Basic](https://github.com/Longju000/html-basic-development/tree/main/HTML%20Practice/Basic)
 - HTML Elements
 - HTML Attributes
 - HTML Headings
