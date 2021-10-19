@@ -65,7 +65,7 @@ Contributions are always welcome!
 If you have any feedback, please reach out through the issues section.
   
 ## 🚀 About Me
-I'm a Front-end Development...
+I'm a Front-end Developer.
 And currently exploring the Blockchain technology.
 
   
